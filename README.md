@@ -37,7 +37,7 @@ Make sure you have the following installed:
 
 - **Java 17+**
 - **Maven**
-- **Node.js** & **npm**
+- **SpringBoot** 
 - **MongoDB** (running locally or via Docker)
 
 ---
