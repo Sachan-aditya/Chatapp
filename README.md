@@ -12,9 +12,8 @@ Welcome to the **Full-Stack WebChat App** — a real-time messaging platform pow
 - 🔐 Secure JWT-Based Authentication (Signup/Login)
 - 📧 Email/Password User Authentication
 - 🗂️ Message History stored in MongoDB
-- 👀 User Presence (Online/Offline)
 - 📱 Responsive UI for Desktop and Mobile
-- 🌗 Optional Dark/Light Mode (Customizable)
+
 
 ---
 
