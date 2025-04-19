@@ -1,58 +1,52 @@
-# 🚀 **Full-Stack WebChat Application**
+# 🚀 Full-Stack WebChat Application
 
-Welcome to the **Full-Stack WebChat App**! This is a **real-time chat application** built with **Spring Boot** for the backend and **WebSocket** for instant communication. The app features **secure JWT-based authentication**, real-time messaging, and a sleek user interface designed for optimal user experience.
+Welcome to the **Full-Stack WebChat App** — a real-time messaging platform powered by **Spring Boot**, **WebSocket**, and **MongoDB**. The application features **JWT-based authentication**, live chat with instant delivery, user presence tracking, and a sleek, responsive UI.
 
----
-
-## 🔥 **Features**
-
-- **Real-Time Messaging** with WebSocket
-- **Secure User Authentication** using JWT
-- **User Registration & Login** with validations
-- **Message History** with persistent storage in PostgreSQL
-- **Notification Alerts** for new messages
-- **User Presence Indicators** (Online/Offline Status)
-- **Responsive and Modern UI**
+![Hero GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm5qODkyeXB5bHkzNncyMmxxajdwcmhlZXg3YWNzOXdoanRudTUzaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sOZPawnAZNqF2zBigN/giphy.gif)
 
 ---
 
-## 💻 **Tech Stack**
+## 🔥 Features
 
-- **Frontend:** HTML, CSS, JavaScript, WebSocket
-- **Backend:** Spring Boot, JWT, WebSocket
-- **Database:** PostgreSQL
-- **Caching:** Redis (for session management)
-- **Message Queue:** Kafka (for efficient message delivery)
-
----
-
-## 🚀 **Getting Started**
-
-To get this application up and running on your local machine, follow these steps:
+- 💬 Real-Time Messaging using WebSocket
+- 🔐 Secure JWT-Based Authentication (Signup/Login)
+- 📧 Email/Password User Authentication
+- 🗂️ Message History stored in MongoDB
+- 👀 User Presence (Online/Offline)
+- 📱 Responsive UI for Desktop and Mobile
+- 🌗 Optional Dark/Light Mode (Customizable)
 
 ---
 
-### 📋 **Prerequisites**
+## 💻 Tech Stack
 
-Before running this app, you’ll need to have the following installed:
-
-- **Java 17+** for running the Spring Boot backend.
-- **Maven** for building the Spring Boot project.
-- **Node.js** and **npm** for managing frontend dependencies.
-- **PostgreSQL** for the database.
-- **Redis** (optional for session management).
-- **Kafka** (optional for message queue).
-
----
-
-### 🛠 **Step-by-Step Installation**
+| Layer      | Technology                     |
+|------------|---------------------------------|
+| Frontend   | HTML, CSS, JavaScript, WebSocket |
+| Backend    | Spring Boot, Spring Security, JWT |
+| Database   | MongoDB                         |
+| Protocol   | WebSocket                       |
+| Auth       | JWT (JSON Web Token)            |
 
 ---
 
-#### **1. Clone the repository**
+## 📦 Getting Started
 
-First, clone the repository to your local machine:
+### 📋 Prerequisites
+
+Make sure you have the following installed:
+
+- **Java 17+**
+- **Maven**
+- **Node.js** & **npm**
+- **MongoDB** (running locally or via Docker)
+
+---
+
+### 🛠 Installation Guide
+
+#### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/webchat-app.git
-cd webchat-app
+git clone https://github.com/Sachan-aditya/Chatapp.git
+cd Chatapp
